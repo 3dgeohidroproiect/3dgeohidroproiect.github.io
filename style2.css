@@ -1,0 +1,360 @@
+
+body{
+	background-color: #1f1d14;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #3f3f3f;
+	}
+
+#container{
+margin:0 auto;
+height:630px;
+text-align:left;
+padding:0 0 0 0;
+}
+
+
+#page{
+	width: 925px;
+	background-color: #1f1d14;
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 10px;
+	height: 100%;
+	}
+
+
+#colWrap1{
+	width: 678px;
+	float: left;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	}
+
+#header{
+	width: 675px;
+	height: 165px;
+	background-image: url(images/header.gif);
+	}
+
+#colWrap2{
+	margin-top: 5px;
+	width: 673px;
+	overflow: hidden;
+	background-color: #e4ecf7;
+	border: 1px solid #000000;
+	z-index:1;
+	}
+
+
+#meniu{
+	margin-top: 5px;
+	width: 133px;
+	height: 295px;
+	float: left;
+	}
+
+#content{
+	background-color: #ffffff;
+	margin-top: 5px;
+	margin-right: 10px;
+	float: right;
+	width: 493px;
+	}
+
+#top-content{
+	width; 494px;
+	height: 11px;
+	background-image: url(images/content-top.gif);
+	background-repeat: no-repeat;
+	}
+
+#middle{
+	padding: 0 5px;
+	width: 482px;
+	background-color: #ffffff;
+	border-left: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
+	}
+
+#bot-content{
+	width: 494px;
+	height: 12px;
+	background-image:url(images/content-bot.gif);
+	background-repeat:no-repeat;
+	background-color: #e4ecf7;
+	}
+
+#titlu, h1{
+   padding: 0;
+   margin: 0;
+	font-size: 170%;
+	color: #173b91;
+	font-weight: bold;
+	}
+
+#titlu2, h2{
+   padding: 0;
+   margin: 0;
+	font-size: 120%;
+	color: #666666;
+	font-weight: bold;
+	}
+
+h3
+{
+   color: #018691;
+   font-weight: bold;
+   font-size: 120%;
+}
+
+.serv0
+{
+   background-color: #D0DFF1;
+}
+
+.serv1
+{
+   background-color: #E4ECF7;
+}
+#imens{
+	padding: 10px 0;
+	font:Impact;
+	font-size: 200%;
+	color: #CCCCCC;
+	font-weight: bold;
+	}
+
+#text{
+	padding: 10px 0;
+	line-height: 170%
+	}
+
+#text a {text-decoration: underline;}
+#text a:link {color: #00289E}
+#text a:visited {color: #00289E}
+#text a:hover {color: #007000}
+#text a:active {color: #CC0000}
+
+#text h1 {
+color: #018691;
+font-weight: bold;
+font-size: 120%;
+}
+
+#lang{
+   float: right;
+}
+
+a.language:link {color: black; text-decoration: none; font-weight: bold;}
+a.language:visited {color: black; font-weight: bold;}
+a.language:hover {color: black; text-decoration: underline; font-weight: bold;}
+a.language:active {color: black; text-decoration: underline; font-weight: bold;}
+
+#clienti{
+	width: 235px;
+	float: right;
+	}
+
+#margine{
+	float: left;
+	width: 14px;
+	background-color: #1f1d14;
+	}
+
+#1{
+	height: 230px;
+	margin-top: 2px solid #ffffff;
+	margin-bottom: 2px solid #ffffff;
+	}
+
+#dr{
+	width: 220px;
+	float: right;
+	background-color: #ebecec;
+	}
+
+#poza_sus{
+	background-image:url(images/clienti.jpg);
+	background-repeat: no-repeat;
+	height: 139px;
+	width: 187px;
+	margin-left: 18px;
+	}
+
+#poza_sus_en{
+	background-image:url(images/clienti_en.jpg);
+	background-repeat: no-repeat;
+	height: 139px;
+	width: 187px;
+	margin-left: 18px;
+	}
+
+#lista{
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	line-height: 170%;
+	font-size: 80%;
+	}
+
+#lista ul{
+	list-style: none;
+	margin-right: 10px;
+	}
+
+#footer{
+	font-size: 120%;
+	clear: both;
+	height: 55px;
+	padding-right: 20px;
+	}
+
+#meniu{
+	float: left;
+	width: 47px;
+	margin-top: 8px;
+	}
+
+#footer li{
+	float: left;
+	margin-right: 30px;
+	margin-left: 10px;
+	}
+
+#footer ul{
+	list-style: none;
+	margin-left: -50px;
+	}
+
+#footer a:link, a:visited{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: bold;
+	}
+
+#meniuf{
+	width: 600px;
+	float: left;
+	}
+
+#dm{
+	float: right;
+	width: 122px;
+	height: 47px;
+	background-image:url(images/logo.jpg);
+	background-repeat: no-repeat;
+	}
+
+#titlu3{
+	font-weight: bold;
+	}
+
+
+#lightbox{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 50%;
+	height: 100%;
+	background: transparent url(../images/blank.gif) no-repeat; /* Trick IE into showing hover */
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right; border: none;}
+#prevLink:hover, #prevLink:visited:hover { background: url(images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(images/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	}
+
+#imageData{
+	padding:0 10px;
+	}
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}
+
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+background-color: #000;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	}
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block;
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+	}
+
